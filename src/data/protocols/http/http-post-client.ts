@@ -1,4 +1,4 @@
-import { HttpResponse } from '@/data/protocols/http/http-response'
+import { HttpResponse } from '.'
 
 // <T> -> Generics do Typescript. Utilizado para que possamos, no codigo, detemrinar o tipo para a determinada interface, object, etc
 export type HttpPostParams<T> = {
